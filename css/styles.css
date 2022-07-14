@@ -855,8 +855,8 @@ p {
     cursor: pointer;
 }
 
-.modal-close:hover,
-.modal-close:focus {
+.modal-close:hover + svg,
+.modal-close:focus + svg {
     fill: var(--accent-color);
     transform: translateY(-100%);
 }
